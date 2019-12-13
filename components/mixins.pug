@@ -1,0 +1,10 @@
+mixin perfil(img,alter,card__title,card__text)
+    .row.m-3
+        .card
+            img.card-img-top(src=img, alt=alter)
+            .card-body
+                h5.card-title= card__title
+                .correo
+                    i.fas.fa-envelope
+                    p.card-text= card__text                
+                a.btn.btn-primary(href='#') Perfil

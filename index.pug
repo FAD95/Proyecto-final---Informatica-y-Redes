@@ -1,0 +1,31 @@
+extend components/plantilla.pug
+block contenidos
+    // Page Content
+    .container.min-height
+        #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+            a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+                span.fas.fa-chevron-circle-left(aria-hidden='true')
+                span.sr-only Previous
+            a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+                span.fas.fa-chevron-circle-right(aria-hidden='true')
+                span.sr-only Next
+            ol.carousel-indicators
+                li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+                li(data-target='#carouselExampleIndicators', data-slide-to='1')
+                li(data-target='#carouselExampleIndicators', data-slide-to='2')
+                li(data-target='#carouselExampleIndicators', data-slide-to='3')
+            .carousel-inner.mt-3.mt-lg-5.mb-3
+                #historia__img.carousel-item.active
+                    a(href='')
+                        h1 Introducción e Historia
+                #estructura__img.carousel-item
+                    a(href='')
+                        h1 Estructura funcional de los computadores
+                #fases__img.carousel-item
+                    a(href='')
+                        h1 Fases del ciclo de vida del desarrollo de sistemas
+                #osir__img.carousel-item
+                    a(href='')
+                        h1 Modelo OSI
+		
+		

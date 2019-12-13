@@ -1,0 +1,155 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+a:hover{
+    text-decoration:none;
+} 
+.navbar-brand{
+    font-family: 'Solway', serif;
+    font-size: 80px;
+}
+#dropdownMenuLink{
+    font-family: 'Bebas Neue', cursive;
+}
+.nav-link{
+    font-family: 'Bebas Neue', cursive;
+}
+.dropdown-item{
+    font-family: 'Solway', serif;
+}
+
+.carousel-inner{
+    height: 60vh;
+}
+
+.imagen-footer figure{
+    height: 100px;
+}
+
+#historia__img{
+    background-image: url("../images/pcviejo.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+#historia__img h1{
+    color: #0c4966;
+}
+
+#estructura__img{
+    background-image: url("../images/ram.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+#estructura__img h1{
+    color:  #e67016;
+}
+
+#fases__img{
+    background-image: url("../images/ciclo.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+#fases__img h1 {
+    color: #0c4966;
+}
+
+#osir__img{
+    background-image: url("../images/osi.jpg");
+    height: 100%;
+    background-size: cover;
+    
+}
+#osir__img h1{
+    color:  #e67016;
+}
+
+.min-height{
+    min-height: 70vh !important;
+}
+.fa-chevron-circle-left{
+    color: #0c4966;
+    font-size: 50px;
+}
+
+.fa-chevron-circle-right{
+    color: #0c4966;
+    font-size: 50px;
+}
+
+.carousel-item{
+    text-align: center;
+    
+}
+.carousel-item h1{
+    
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: 30% auto;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+
+#footer{
+    bottom: 0;
+    width: 100%;
+    margin:0;
+}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+
+
+@media(min-width:992px){
+    .dropdown-menu{
+        transform: translateX(-330px);
+    }
+    .carousel-item h1{
+        width: 500px;
+        margin: 200px auto;
+    }
+}
+
+
+
+
+.card{
+    margin: 10px;
+    padding: 0 !important;
+    max-width: 300px;
+}
+
+.card img{
+    height: 350px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 20px;
+}
+
+.card-body a{
+    margin-top: 30px;
+}
+
+.correo{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+}
+.correo i{
+    margin-right: 10px;
+}
+.correo p{
+    word-wrap: break-word;
+    width: 100%;
+}
